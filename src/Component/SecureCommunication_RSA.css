@@ -1,0 +1,139 @@
+*{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.account{
+    transform: translateY(47%);
+    position: absolute;
+    font-size: 20px;
+    color: orange;
+}
+
+.section{
+    min-height: 680px;
+    padding: 30px;
+    min-width: 500px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #fff;
+    transition: all .5s;
+}
+.section:hover{
+    transform: scale(1.005);
+
+}
+.key_1{
+    height: 60%;
+    margin: auto 0;
+    margin-right: 20px;
+}
+
+button{
+    margin: 20px 0;
+}
+
+textarea{
+    padding: 19px 20px 0 23px;
+    font-family: Oswald;
+    font-size: 15px;
+    color: #43383e;
+    line-height: 1.2;
+    border: none;
+    background-color: #e6e6e6!important;
+    height: 300px;
+}
+.textArea_TaoKhoa{
+    height: 150px;
+}
+span{
+    text-wrap: nowrap;
+    margin-right: 5px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1280px) {
+    .section{
+        min-height: 490px;
+        min-width: 300px;
+    }
+
+    .textarea_SR{
+        height: 150px!important;
+    }
+
+    .textArea_TaoKhoa{
+        height: 80px!important;
+    }
+
+    .khoa2{
+        width: 259px!important;
+    }
+    .publicKeyDiv{
+        margin-top: 0!important;
+    }
+    .firstRow{
+        margin-bottom: 1%!important;
+    }
+    h2{
+        font-size: 1.875rem;
+    }
+    .h1_firstTitle{
+        padding: 0.8rem!important;
+    }
+    .btn_saveKeyRes{
+        margin-bottom: 10px!important;
+    }
+    .key_1{
+        margin-right: 3%!important;
+    }
+    .btn_KiemTra{
+        margin-top: 61px!important;
+    }
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1464px) {
+    .section{
+        min-height: 600px;
+        min-width: 300px;
+    }
+
+    .textarea_SR{
+        height: 250px!important;
+    }
+
+    .textArea_TaoKhoa{
+        height: 125px!important;
+    }
+
+    .khoa2{
+        width: 298px!important;
+    }
+    .publicKeyDiv{
+        margin-top: 0!important;
+    }
+    .firstRow{
+        margin-bottom: 2%!important;
+    }
+    h2{
+        font-size: 1.875rem;
+    }
+    .h1_firstTitle{
+        padding: 0.8rem!important;
+    }
+    .btn_saveKeyRes{
+        margin-bottom: 10px!important;
+    }
+    .btn_KiemTra{
+        margin-top: 61px!important;
+    }
+    .hihi{
+        margin-right: 7px!important;
+    }
+    .haha{
+        margin-left: -10px!important;
+    }
+
+}
